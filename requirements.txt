@@ -1,0 +1,13 @@
+# Core library used in the documented historical runs
+segmentation-models-pytorch==0.5.0
+# Versions below are intentionally not hard-pinned: full historical Colab environment was not archived.
+torch
+torchvision
+numpy
+pandas
+scipy
+scikit-learn
+Pillow
+matplotlib
+tqdm
+nbformat

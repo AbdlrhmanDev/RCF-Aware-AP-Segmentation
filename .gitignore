@@ -1,0 +1,44 @@
+# PRAD data and all clinical imagery must never be included
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.dcm
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.parquet
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.zip
+*.7z
+*.tar
+*.gz
+*.pdf
+# Project metadata/manifests may contain restricted identifiers
+*manifest*.json
+*manifest*.csv
+*split*.json
+*split*.csv
+*checkpoint*.json
+# Python/Colab and local settings
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+credentials.json
+client_secret.json
+*.log
+.DS_Store
